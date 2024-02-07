@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(180, 229, 252);
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
