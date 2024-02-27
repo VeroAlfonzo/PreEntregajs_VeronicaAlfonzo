@@ -1,13 +1,92 @@
-body {
-    background-color: rgb(180, 229, 252);
+* {
+    margin: 0;
+    padding: 0;
 }
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    width: 15rem;
+}
+
+h1 {
+    text-align: center;
+    display: inline;
+    position: relative;
+    top: 4.0625rem;
+    right: -13.8125rem;
+}
+
+.buscar {
+    display: flex;
+    position: relative;
+    top: 153px;
+    right: 102px;
+}
+
+input{
+    height: 1.9375rem;
+    width: 25rem;
+}
+
+.boton_buscar {
+    width: 3.75rem;
+    height: 1.97rem;
+}
+
+.main {
+    margin: 5vw;
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+}
+
+h2 {
+    color: rgb(130, 6, 247);
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    margin: .625rem;
+    border-radius: 10px;
+    background-image: url(../resource/image/istockphoto-935133478-170667a.webp);
+    width: max-content;
+}
+
+.producto_card {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 16.25rem;
+    padding-top: 5px;
+}
+
+.footer_card {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.boton_card {
+    background-color: rgb(221, 148, 255);
+    border-radius: 5px;
+}
+
 
 footer{
     display: flex;
     justify-content: space-evenly;
     align-items: stretch;
-}
-
-h2 {
-    color: rgb(255, 255, 255);
 }
