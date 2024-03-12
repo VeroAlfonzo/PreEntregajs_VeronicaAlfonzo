@@ -40,6 +40,18 @@ input{
     height: 1.97rem;
 }
 
+.botones {
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -1.9375rem;
+    right: -13.8125rem;
+}
+
+.botones button {
+    margin: .3125rem;
+}
+
 .main {
     margin: 5vw;
     background-color: rgb(255, 255, 255);

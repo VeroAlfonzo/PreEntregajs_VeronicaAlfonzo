@@ -1,4 +1,15 @@
-alert("Bienvenido a Libreria ARCOIRIS");
+const Buscar = document.querySelector("#boton_buscar");
+Buscar.addEventListener("click", buscarProducto);
+
+const agregarACarrito = document.querySelector("#Boton_card");
+agregarACarrito.addEventListener("click", mostrarAlerta);
+
+
+
+function mostrarAlerta() {
+    alert(productoElegido.nombre + " se agregó al carrito.");
+}
+
 
 // Seleccion de productos para comprar.
 const carrito = []
@@ -28,25 +39,26 @@ const productos = [
     { id: 11, nombre: "Cuaderno hoja cuadriculada", precio: 5499, img: "" },
 ];
 
-function buscarProducto(id) {
-    let productoSeleccionado = productos.find((productos)=> productos.id === id );
+
+function buscarProducto(nombre) {
+    let productoSeleccionado = productos.find((productos)=> productos.nombre === nombre );
     return productoSeleccionado
 }
 
+
 function comprar() {
-  let id = prompt("Ingresa el código del producto.\n(el cód. numérico del HTML)")
-  let productoElegido = buscarProducto(parseInt(id));
+  let nombre = prompt("Ingresa el nombre del producto.");
+  let productoElegido = buscarProducto(nombre);
 
   if (productoElegido !== undefined) {
       
       carrito.push(productoElegido)     
-      alert(productoElegido.nombre + " se agregó al carrito.");
+      mostrarAlerta;
       let respuesta = confirm("¿Deseas elegir otro producto?");
       if (respuesta === true) {
           comprar();                   
           const shop = new Compra(carrito)
           let subtotal = shop.obtenerSubtotal();
-          alert(carrito);
           alert("🛒 El costo de tu compra es: $" + subtotal, "\nMuchas gracias por elegirnos.");
       }
 
@@ -87,4 +99,3 @@ if (user == "no") {
         alert("Tu usuario y/o contraseña son incorrectos");
     }
 }
-
