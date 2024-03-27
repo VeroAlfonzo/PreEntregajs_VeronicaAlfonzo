@@ -1,0 +1,182 @@
+[
+    {
+        "id": "cuaderno-01",
+        "titulo": "Cuaderno hoja cuadriculada",
+        "imagen": "./resource/productos/1.jfif",
+        "categoria": {
+            "nombre": "Cuaderno",
+            "id": "Cuaderno"
+        },
+        "precio": 4480
+    },
+    {
+        "id": "cuaderno-02",
+        "titulo": "Cuaderno hoja rayada",
+        "imagen": "./resource/productos/2.jpg",
+        "categoria": {
+            "nombre": "Cuaderno",
+            "id": "Cuaderno"
+        },
+        "precio": 4480
+    },
+    {
+        "id": "hojas-01",
+        "titulo": "Hojas cuadriculadas",
+        "imagen": "./resource/productos/3.jpg",
+        "categoria": {
+            "nombre": "Hojas",
+            "id": "Hojas"
+        },
+        "precio": 19400
+    },
+    {
+        "id": "hojas-02",
+        "titulo": "Hojas rayadas",
+        "imagen": "./resource/productos/4.png",
+        "categoria": {
+            "nombre": "Hojas",
+            "id": "hojas"
+        },
+        "precio": 19400
+    },
+    {
+        "id": "lapicera-01",
+        "titulo": "Lapicera azul",
+        "imagen": "./resource/productos/5.jpg",
+        "categoria": {
+            "nombre": "Lapicera",
+            "id": "Lapicera"
+        },
+        "precio": 444
+    },
+    {
+        "id": "lapicera-02",
+        "titulo": "Lapicera negra",
+        "imagen": "./resource/productos/6.jpg",
+        "categoria": {
+            "nombre": "Lapicera",
+            "id": "lapicera"
+        },
+        "precio": 444
+    },
+    {
+        "id": "lapices-colores-01",
+        "titulo": "Lapices de colores",
+        "imagen": "./resource/productos/7.jpg",
+        "categoria": {
+            "nombre": "Lapices",
+            "id": "lapices"
+        },
+        "precio": 6145
+    },
+    {
+        "id": "lapices-colores-02",
+        "titulo": "Lapices de colores",
+        "imagen": "./resource/productos/8.jpg",
+        "categoria": {
+            "nombre": "Lapices",
+            "id": "lapices"
+        },
+        "precio": 4100
+    },
+    {
+        "id": "lapices-colores-03",
+        "titulo": "Lapices de colores",
+        "imagen": "./resource/productos/9.jpg",
+        "categoria": {
+            "nombre": "Lapices",
+            "id": "lapices"
+        },
+        "precio": 84000
+    },
+    {
+        "id": "lapiz-01",
+        "titulo": "Lapiz negro",
+        "imagen": "./resource/productos/10.jpeg",
+        "categoria": {
+            "nombre": "Lapiz",
+            "id": "lapiz"
+        },
+        "precio": 875
+    },
+    {
+        "id": "lapiz-02",
+        "titulo": "Lapiz negro",
+        "imagen": "./resource/productos/11.jpg",
+        "categoria": {
+            "nombre": "Lapiz",
+            "id": "lapiz"
+        },
+        "precio": 395
+    },
+    {
+        "id": "resaltadores-01",
+        "titulo": "Resaltadores x5",
+        "imagen": "./resource/productos/12.png",
+        "categoria": {
+            "nombre": "Resaltadores",
+            "id": "resaltadores"
+        },
+        "precio": 9594
+    },
+    {
+        "id": "resaltadores-02",
+        "titulo": "Resaltadores x4",
+        "imagen": "./resource/productos/13.jpg",
+        "categoria": {
+            "nombre": "Resaltadores",
+            "id": "resaltadores"
+        },
+        "precio": 4750
+    },
+    {
+        "id": "tijera-01",
+        "titulo": "Tijera escolar",
+        "imagen": "./resource/productos/14.jfif",
+        "categoria": {
+            "nombre": "Tijera",
+            "id": "tijera"
+        },
+        "precio": 2740
+    },
+    {
+        "id": "tijera-02",
+        "titulo": "Tijera con forma",
+        "imagen": "./resource/productos/15.jpg",
+        "categoria": {
+            "nombre": "Tijera",
+            "id": "tijera"
+        },
+        "precio": 3280
+    },
+    {
+        "id": "carpeta-01",
+        "titulo": "Carpeta Disney",
+        "imagen": "./resource/productos/16.jpg",
+        "categoria": {
+            "nombre": "Carpetas",
+            "id": "carpetas"
+        },
+        "precio": 10260
+    },
+    {
+        "id": "carpeta-02",
+        "titulo": "Carpeta Marvel",
+        "imagen": "./resource/productos/17.jfif",
+        "categoria": {
+            "nombre": "Carpetas",
+            "id": "carpetas"
+        },
+        "precio": 9340
+    },
+    {
+        "id": "carpeta-03",
+        "titulo": "Carpeta autos",
+        "imagen": "./resource/productos/18.jfif",
+        "categoria": {
+            "nombre": "Carpetas",
+            "id": "carpetas"
+        },
+        "precio": 8920
+    }
+]
